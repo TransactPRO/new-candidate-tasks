@@ -1,0 +1,20 @@
+{
+    "name": "transact-pro/new-candidate-tasks",
+    "description": "Junior/Mid Web Developer",
+    "minimum-stability": "stable",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Dmitrijs Vrublevskis",
+            "email": "d.vrublevskis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tpro\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "3.7.37"
+    }
+}
