@@ -30,7 +30,7 @@ Invalid string examples:
 
 To check if your solution is correct, run:
 ```shell
-vendor/bin/phpunit Easy/Nesting
+$ vendor/bin/phpunit --group Easy/Nesting
 ```
 
 **Note:** Be sure to keep your solution as more efficient, as possible. Also, try to keep your code structured and easy-to-read.

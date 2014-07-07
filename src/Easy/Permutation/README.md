@@ -18,7 +18,7 @@ Complete a `check` function in class `Permutation`.
 
 To check if your solution is correct, run:
 ```shell
-vendor/bin/phpunit Easy/Permutation
+$ vendor/bin/phpunit --group Easy/Permutation
 ```
 
 **Note:** Be sure to keep your solution as more efficient, as possible. Also, try to keep your code structured and easy-to-read.

@@ -1,6 +1,9 @@
 <?php
 namespace Tpro\Easy\Nesting;
 
+/**
+ * @group Easy/Nesting
+ */
 class NestingTest extends \PHPUnit_Framework_TestCase
 {
     /** @var Nesting */
