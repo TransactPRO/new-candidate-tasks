@@ -23,7 +23,7 @@ Correctly nested string examples:
 Invalid string examples:
 - `"Hello (world"`
 - `"(((((((((("`
-- `"(()[)"`
+- `"((]()"`
 - `"(((i(()))e"`
 
 **Complete a `check` function in class `Nesting`.**
