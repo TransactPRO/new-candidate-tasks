@@ -21,7 +21,7 @@
         verbose="false">
     <testsuites>
         <testsuite name="Transact PRO Test suite">
-            <directory suffix="Test.php">./tests</directory>
+            <directory suffix="Test.php">./src</directory>
         </testsuite>
     </testsuites>
 </phpunit>
