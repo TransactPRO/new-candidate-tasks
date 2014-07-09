@@ -61,7 +61,8 @@ class NestingTest extends \PHPUnit_Framework_TestCase
             array("Hello (world"),
             array("(((((((((("),
             array("((]()"),
-            array("(((i(()))e")
+            array("(((i(()))e"),
+            array(")))))")
         );
     }
 }
