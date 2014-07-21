@@ -1,12 +1,12 @@
 # Easy/Permutation
-A non-empty array consisting of `n` integers is given.
+A non-empty array consisting of `N` integers is given.
 
-A permutation is a sequence containing each element from 1 to N once, and only once. Examples:
+A permutation is a sequence containing each element from 1 to `N` once, and only once. Examples:
 ```php
-array(1, 2, 3, 4); // Correct
-array(1, 3, 2, 4); // Correct
-array(4, 3, 2, 1); // Correct
-array(3, 1, 4); // Invalid - 2 is missing
+array(1, 2, 3, 4); // Correct (Permutation is 1,2,3,4)
+array(1, 3, 2, 4); // Correct (Permutation is 1,2,3,4)
+array(4, 3, 2, 1); // Correct (Permutation is 1,2,3,4)
+array(3, 1, 4); // Invalid - 2 is missing (Permutation is 1,2,3)
 ```
 
 **The goal is to check whether array A is a permutation.**
