@@ -6,7 +6,7 @@ class Permutation
     /**
      * Check if array is valid permutation. Returns true if it is, false otherwise
      *
-     * @param array $array Non-empty zero-indexed array of $n integers
+     * @param array $array Non-empty zero-indexed array
      *
      * @return bool
      */
