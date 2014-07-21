@@ -19,7 +19,7 @@ class PermutationTest extends \PHPUnit_Framework_TestCase
      */
     public function testSimpleValidCases(array $array)
     {
-        $result = $this->permutation->check($array, count($array));
+        $result = $this->permutation->check($array);
         $this->assertTrue(
             $result,
             "Array " . json_encode($array) . " is valid permutation, expected 'true' as result. " .
@@ -45,7 +45,7 @@ class PermutationTest extends \PHPUnit_Framework_TestCase
      */
     public function testSimpleInvalidCases(array $array)
     {
-        $result = $this->permutation->check($array, count($array));
+        $result = $this->permutation->check($array);
         $this->assertFalse(
             $result,
             "Array " . json_encode($array) . " is invalid permutation, expected 'false' as result. " .
