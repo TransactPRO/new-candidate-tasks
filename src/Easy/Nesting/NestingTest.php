@@ -24,7 +24,7 @@ class NestingTest extends \PHPUnit_Framework_TestCase
             $result,
             "Expected that properly nested string '$string' got 'true' as result. Got '" . json_encode(
                 $result
-            ) . "' insted."
+            ) . "' instead."
         );
     }
 
@@ -51,7 +51,7 @@ class NestingTest extends \PHPUnit_Framework_TestCase
             $result,
             "Expected that invalid string '$string' got 'false' as result. Got '" . json_encode(
                 $result
-            ) . "' insted."
+            ) . "' instead."
         );
     }
 
