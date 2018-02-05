@@ -3,8 +3,6 @@ New candidate tasks
 
 Junior/Middle Web (PHP) developer position tasks.
 
-In case of any issues, feel free to contact with: [dv@tpro.lv](mailto:dv@tpro.lv)
-
 ## Setup
 You need PHP 5.3.8+ (5.5 preferable) and [composer](https://getcomposer.org/) to install dependencies.
 
